@@ -30,7 +30,7 @@ spec:
         preference:
           matchExpressions:
           - key: project
-            operator:
+            operator: In
             values:
             - amazon
   containers:
