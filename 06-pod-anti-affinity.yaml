@@ -14,7 +14,7 @@ spec:
             values:
             - pod-1
             - pod-2
-      topologyKey: topology.kubernetes.io/zone
+        topologyKey: topology.kubernetes.io/zone
   containers:
   - name: nginx
     image: nginx
